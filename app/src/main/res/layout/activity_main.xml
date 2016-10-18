@@ -1,15 +1,81 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="${packageName}.${activityClass}" >
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/th"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/th"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="DEVELOPPEUR LOGICIELS"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maison"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText"
+        android:layout_marginTop="48dp" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Go to Next" />
+        android:text="Coordonées "
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_toLeftOf="@+id/th"
+        android:layout_toStartOf="@+id/th"
+        android:layout_marginBottom="11dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/projets"
+        android:id="@+id/imageView9"
+        android:layout_below="@+id/button1"
+        android:layout_alignRight="@+id/imageView8"
+        android:layout_alignEnd="@+id/imageView8" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dev"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/basedonnees"
+        android:id="@+id/imageView11"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10" />
 
 </RelativeLayout>
