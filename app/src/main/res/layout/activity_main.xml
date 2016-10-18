@@ -38,7 +38,7 @@
         android:layout_below="@+id/editText"
         android:layout_toLeftOf="@+id/editText"
         android:layout_toStartOf="@+id/editText"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="50dp" />
 
     <Button
         android:id="@+id/button1"
@@ -59,6 +59,17 @@
         android:layout_alignRight="@+id/imageView8"
         android:layout_alignEnd="@+id/imageView8" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projets "
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_toLeftOf="@+id/th"
+        android:layout_toStartOf="@+id/th"
+        android:layout_marginBottom="11dp" />
+
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,5 +88,23 @@
         android:layout_below="@+id/imageView10"
         android:layout_alignLeft="@+id/imageView10"
         android:layout_alignStart="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BASE DE DONNEES  "
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPPEMENT "
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
 
 </RelativeLayout>
