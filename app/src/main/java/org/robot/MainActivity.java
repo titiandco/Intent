@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		Button buttonclick = (Button)findViewById(R.id.button1);
+		Button buttonclick2 = (Button)findViewById(R.id.button2);
 		
 		buttonclick.setOnClickListener(new View.OnClickListener() {
 			
@@ -26,7 +27,9 @@ public class MainActivity extends Activity {
 				// use Intent
 				
 				Intent intent1= new Intent(MainActivity.this, SecondActivity.class);
+				Intent intent2= new Intent(MainActivity.this, ThirdActivity.class);
 				startActivity(intent1);
+				startActivity(intent2);
 			}
 		});
 	}

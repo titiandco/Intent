@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/th"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="5dp"
         android:layout_marginEnd="16dp"
         android:id="@+id/th"
         android:layout_below="@+id/editText"
@@ -24,11 +24,12 @@
         android:ems="10"
         android:id="@+id/editText"
         android:fontFamily="sans-serif"
-        android:textSize="18sp"
+        android:textSize="14pt"
         android:textStyle="normal|bold"
         android:textAllCaps="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -38,13 +39,13 @@
         android:layout_below="@+id/th"
         android:layout_toLeftOf="@+id/editText"
         android:layout_toStartOf="@+id/editText"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="50dp" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coordonées "
+        android:text="Coordonées"
         android:layout_alignBottom="@+id/imageView8"
         android:layout_toLeftOf="@+id/th"
         android:layout_toStartOf="@+id/th"
